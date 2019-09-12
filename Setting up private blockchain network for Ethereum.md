@@ -1,6 +1,6 @@
-#Setting up Local Blockchain Network for Ethereum using Geth
+# Setting up Local Blockchain Network for Ethereum using Geth
 
-####Prerequisites for setting up private blockchain
+#### Prerequisites for setting up private blockchain
 
 * Geth: This is useful in setting up the private network.
 
