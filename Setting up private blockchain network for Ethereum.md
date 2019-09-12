@@ -225,7 +225,7 @@ For setting up the workspace follow the instructions below. I prefer VSCode for 
       development: {
        host: "127.0.0.1",     // Localhost (default: none)
        port: "<RPC_PORT>",            // Standard Ethereum port (default: none)
-       network_id: "NETWORK_ID",       // Any network (default: none)
+       network_id: "<NETWORK_ID>",       // Any network (default: none)
        gas: "4000000"
       },
   ``````
