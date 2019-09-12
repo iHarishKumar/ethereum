@@ -1,6 +1,6 @@
 # Setting up Local Blockchain Network for Ethereum using Geth
 
-#### Prerequisites for setting up private blockchain
+### Prerequisites for setting up private blockchain
 
 * Geth: This is useful in setting up the private network.
 
@@ -34,7 +34,7 @@
 
 ---
 
-#### Setting up Local Network using Geth
+### Setting up Local Network using Geth
 
 To setup the Ethereum local network using Geth, follow the steps described below.
 
@@ -151,11 +151,9 @@ To setup the Ethereum local network using Geth, follow the steps described below
 
     > personal.unlockAccount(web3.eth.coinbase, <AccPassword>)
 
-    
-
 ---
 
-#### Setting up Truffle workspace
+### Setting up Truffle workspace
 
 For setting up the workspace follow the instructions below. I prefer VSCode for development purpose as this is very good extensions/pacakges for handling the code.
 
@@ -223,7 +221,7 @@ For setting up the workspace follow the instructions below. I prefer VSCode for 
 
   Edit the `truffle-config.js` (for MacOS) under network object with the following code.
 
-  ``````json
+  ``````
       development: {
        host: "127.0.0.1",     // Localhost (default: none)
        port: "<RPC_PORT>",            // Standard Ethereum port (default: none)
@@ -263,7 +261,7 @@ Hope you are now able to play around with adding more nodes and deploying smart 
 
 
 
-Resources:
+#### **Resources**:
 
 * https://ethereum.stackexchange.com/questions/6373/connecting-2-nodes-on-different-machines-on-different-network-from-terminal-in-e
 * https://ethereum.stackexchange.com/questions/10681/what-are-ipc-and-rpc - This was very helpful in understanding setting up the network with specific IP's.
