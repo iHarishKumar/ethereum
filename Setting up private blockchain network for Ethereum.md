@@ -4,7 +4,7 @@
 
 * Geth: This is useful in setting up the private network.
 
-  * For installing Geth, follow the steps which are described here for MacOS only. For other OS related installation, refer to this page.
+  * For installing Geth, follow the steps which are described here for MacOS only. For other OS related installation, refer to the page in resources.
 
     > brew install geth
 
@@ -88,7 +88,7 @@ To setup the Ethereum local network using Geth, follow the steps described below
 
   With the above commands you should be able to successfully create network without any errors. Now, you will be prompted to the console. Here, you need to create an account as every node should be associated with a secure address in order to interact with the network.
 
-  > personal.addAccount()
+  > personal.newAccount()
 
   It will prompt for the password. Make sure you remember the password for future use. 
 
@@ -267,4 +267,5 @@ Hope you are now able to play around with adding more nodes and deploying smart 
 * https://ethereum.stackexchange.com/questions/10681/what-are-ipc-and-rpc - This was very helpful in understanding setting up the network with specific IP's.
 * https://medium.com/blockchainbistro/set-up-a-private-ethereum-blockchain-and-deploy-your-first-solidity-smart-contract-on-the-caa8334c343d - More infromation about the configuration variables used throughout the setup.
 * https://geth.ethereum.org/interface/Command-Line-Options - For understanding geth command and its usage.
+* https://geth.ethereum.org/install-and-build/Installing-Geth#install-from-a-package-manager - For installing geth on different OS.
 
